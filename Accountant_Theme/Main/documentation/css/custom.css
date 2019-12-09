@@ -1,0 +1,321 @@
+/*----------------------------------------------------------------------
+Theme Documentation
+Author: OG Web Solutions
+------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+/*-------------- General Style --------------*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #6f797e;
+}
+ul, li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	margin-bottom: 15px;
+	font-size: 14px;
+	color: #6f797e;
+	line-height: 26px;
+}
+a {
+	text-decoration: none !important;
+	outline: none !important;
+	font-weight: bold;
+	color: #4b5255;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+::-moz-selection {
+ color:#fff;
+ background:#24353b;
+}
+::selection {
+	color: #fff;
+	background: #24353b;
+}
+strong {
+	color: #4b5255;
+}
+a:hover {
+	color: #292d2f;
+}
+h1, h2, h3 {
+	font-family: 'texgyreadventorbold';
+	color: #24353b
+}
+@font-face {
+	font-family: 'texgyreadventorbold';
+	src: url('../fonts/texgyreadventor-bold-webfont.woff2') format('woff2'),  url('../fonts/texgyreadventor-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'texgyreadventorregular';
+	src: url('../fonts/texgyreadventor-regular-webfont.woff2') format('woff2'),  url('../fonts/texgyreadventor-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-------------- start Header --------------*/
+
+.header {
+	padding: 40px 0 60px 0;
+	background: url(../images/banner-bg.jpg) no-repeat center center / cover;
+}
+.header a.logo {
+	display: inline-block;
+}
+.header .top-block {
+	display: block;
+	padding-bottom: 50px;
+}
+.header h1 {
+	padding-bottom: 18px;
+	font-size: 38px;
+	text-transform: uppercase;
+}
+.header p {
+	margin: 0px;
+	font-size: 15px;
+	color: #fff;
+}
+.header p span {
+	display: block;
+}
+.header p span.orange {
+	display: inline;
+	color: #e38600;
+}
+a.contact-support {
+	max-width: 246px;
+	display: block;
+	margin-top: 24px;
+	background: #ff2f2f;
+	text-transform: uppercase;
+	font-family: 'texgyreadventorbold';
+	font-size: 18px;
+	color: #fff;
+	line-height: 22px;
+	position: relative;
+}
+a.contact-support:hover {
+	background: #0267a2;
+}
+a.contact-support .left {
+	width: 80%;
+	float: left;
+	padding: 20px 0 20px 24px;
+}
+a.contact-support .icon {
+	display: block;
+	padding-right: 15px;
+	float: left;
+}
+a.contact-support .txt {
+	width: 54%;
+	float: left;
+	line-height: 20px;
+}
+a.contact-support .arrow {
+	width: 20%;
+	height: 100%;
+	line-height: 78px;
+	position: absolute;
+	right: 0px;
+	background: #ff2f2f;
+	font-size: 24px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+}
+a.contact-support:hover .arrow {
+	background: #0267a2;
+}
+
+/*-------------- start middle --------------*/
+
+.middle-outer {
+	padding: 80px 0;
+}
+.middle-outer .left {
+	display: block;
+	padding-right: 20px;
+}
+.middle-outer .left .row1 {
+	padding-bottom: 30px;
+}
+.middle-outer .left .row1:last-child {
+	padding-bottom: 0px;
+}
+.middle-outer .left h2 {
+	padding-bottom: 30px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.middle-outer .left h3 {
+	padding-bottom: 15px;
+	font-size: 18px;
+}
+.middle-outer .left p {
+	padding-right: 15%;
+}
+.middle-outer .left p:last-child {
+	margin-bottom: 0px;
+}
+.basics {
+	display: block;
+	padding: 40px 0;
+	border-bottom: 1px #dfdfdf solid;
+}
+.basics:first-child {
+	padding-top: 0px;
+}
+.basics:last-child {
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+.syntaxhighlighter {
+	padding: 30px 10px;
+	border: 1px #d9e3ea solid;
+}
+.panel-group.fixed {
+	position: fixed;
+	top: 20px;
+}
+ul.listing {
+	display: block;
+}
+ul.listing li {
+	padding-left: 15px;
+	line-height: 30px;
+	background: url(../images/next-arrow.png) no-repeat center left;
+}
+ul.listing li a {
+	font-weight: bold;
+}
+.panel-group .panel {
+	border-radius: 0px;
+}
+.panel-default {
+	padding: 8px 0;
+	margin: 0px !important;
+	border: none;
+	border-bottom: 1px #dfdfdf solid;
+	box-shadow: none;
+}
+.panel-default:last-child {
+	border: none;
+}
+.panel-title a {
+	font-size: 16px;
+	color: #2d4256;
+	text-transform: uppercase;
+}
+.panel-default > .panel-heading {
+	padding: 0px;
+	background: none;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+	padding: 0px;
+	border: none;
+}
+ul.menu-listing {
+	display: block;
+	padding: 10px 0;
+}
+ul.menu-listing li {
+	display: block;
+	font-size: 14px;
+	line-height: 26px;
+}
+ul.menu-listing li a:hover {
+	color: #292d2f;
+}
+ul.menu-listing li a {
+	color: #6f797e;
+}
+
+/*-------------- start footer --------------*/
+
+.footer {
+	display: block;
+	padding: 40px 0;
+	background: #234a66;
+}
+.footer h4 {
+	margin: 0px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	color: #fff;
+}
+.footer p {
+	margin-bottom: 0px;
+	font-size: 13px;
+	color: #8eb6d6;
+	line-height: 24px;
+}
+a.scroll-top {
+	width: 44px;
+	height: 44px;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	position: fixed;
+	display: none;
+	right: 20px;
+	bottom: 20px;
+	background: #ff2f2f;
+}
+a.scroll-top:hover {
+	background: #0267a2;
+}
+.syntaxhighlighter .toolbar {
+	display: none;
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+	 
+	.header {
+		padding: 30px 0 50px;
+	}
+	.header p span, .footer p span {
+		display: inline;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.header {
+		padding: 30px 0 50px;
+	}
+	.header p span, .footer p span {
+		display: inline;
+	}
+}
+  
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	.middle-outer {
+		padding: 40px 0;
+	}
+	.middle-outer .left {
+		padding-right: 0px;
+	}
+}

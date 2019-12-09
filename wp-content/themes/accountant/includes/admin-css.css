@@ -1,0 +1,120 @@
+.metabox_table{
+	width: 100%;
+	border-spacing: 15px;
+}
+.metabox_table td , .metabox_table th{
+	margin: 10px 0;
+}
+.metabox_table tr th{
+	width: 30%;
+	text-align: left;
+}
+.metabox_table select , .metabox_table textarea{
+	width: 25em;
+}
+.metabox_table .mce-tinymce{
+	border: 1px solid #ddd;
+}
+.metabox_table tr input:not([type='checkbox']):not([type='radio']) , 
+.metabox_table select , 
+.metabox_table textarea{
+	height: 34px;
+	width: 70%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.metabox_table textarea{
+	height: 100px;
+}
+.metabox_table i.description{
+	cursor: pointer;
+	color: #006799;
+    font-weight: bold;
+}
+.metabox_table a.add-more{
+	display: block;
+}
+.multiple-divs .multiple:first-child .remove-multiple{
+	display: none;
+}
+.pinkynail{
+	background: #ddd;
+}
+
+#accordion h3{
+	background: #eee;
+	padding: 10px;
+	margin:10px 0 0 0;
+	outline: none;
+	border-top: 3px double #CECECE;
+	font-size: 14px;
+	color: #005882;
+}
+#accordion .accordion-div{
+	background: #FBFBFB;
+	border: 1px solid #eee;
+}
+#accordion .single-item:first-child span.remove{
+	display: none;
+}
+#accordion h3 div.actions{
+	float: left;
+}
+#accordion h3 div.actions span{
+	font-size: 13px;
+	cursor: pointer;
+	margin: 0 7px;
+}
+#accordion h3 div.actions span.remove{
+	color: red;
+}
+#accordion h3 div.actions span.add{
+	color: green;
+}
+#accordion .ui-sortable-placeholder{
+	background: #0073aa;
+	border: 1px dashed #ddd;
+	visibility: visible !important;
+}
+span.order-count{
+	display: inline-block;
+    background-color: #d54e21;
+    color: #fff;
+    font-size: 9px;
+    line-height: 17px;
+    font-weight: 600;
+    margin: 1px 0 0 2px;
+    vertical-align: top;
+    border-radius: 50%;
+    padding: 0 7px;
+}
+
+.new-order{
+	font-weight: bold;
+    background: #1c91ca;
+    padding: 3px 10px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.progress-order{
+	font-weight: bold;
+    background: #f98522;
+    padding: 3px 10px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.done-order{
+	font-weight: bold;
+    background: #21a718;
+    padding: 3px 10px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.list-img{
+	display: inline-block;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+}

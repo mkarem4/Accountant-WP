@@ -1,0 +1,301 @@
+/*!
+Theme Name: accountant theme
+Theme URI: http://altairegypt.com/
+Author: Altair Software
+Author URI: http://underscores.me/
+Description: Description
+Version: 2.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: accountant
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+parent: accountant
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+accountant is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+@import url('https://fonts.googleapis.com/css?family=Almarai:400,700,800|Tajawal:400,500,700&display=swap');
+body, h1,h2,h3,h4,h5,h6{
+    font-family: 'Tajawal', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Almarai', sans-serif !important;
+}
+.row.heading h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 500;
+}
+.blog-right h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+.banner-outer .content h1 span{
+    font-family: 'Tajawal', sans-serif !important;
+}
+.inner-banner{
+    padding: 200px 0 150px;
+    background-size: cover !important;
+}
+.contact-info h2, .form-wrapper h2{
+    font-size: 20px;
+    padding: 0 0 25px;
+    font-weight: 600;
+}
+ul.blog-listing > li{
+    margin-bottom: 30px;
+    border: 1px solid #ededed;
+    background: #fcfcfc;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #f3f3f3;
+}
+ul.blog-listing > li img{
+    height: auto;
+    border: 1px solid #f6f6f6;
+}
+.banner-outer .banner-image{
+    background-size: cover !important;
+}
+.login_block{
+    text-align: right;
+    color: #616161;
+    font-size: 15px;
+}
+.about ul.our-links li .detail h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.about ul.our-links li .detail p{
+    font-family: 'Tajawal', sans-serif !important;
+}
+.about ul.our-links li .box{
+    height: 250px;
+}
+.inner-banner h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#loading img{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+.modal-backdrop{
+    z-index: 1040 !important;
+}
+body.admin-bar header{
+    top: 32px;
+}
+
+header.header-small .logo img{
+    max-width: 100px;
+}
+
+header .logo img{
+    max-width: 120px;
+}
+.form-wrapper input:not([type="submit"]) , .form-wrapper textarea{
+    text-align: right;
+    direction: rtl;
+}
+.contact-info p{
+    line-height: 30px;
+}
+.contact-info p.number-info{
+    line-height: 65px;
+}
+.mail-info{
+    line-height: 50px !important;
+}
+.form-wrapper .row{
+    flex-direction: row-reverse;
+}
+
+.about-us-section{
+    background: #ededed;
+}
+ul.post-detail li{
+    padding: 0 0 0 20px;
+}
+.news-listes h2{
+    text-align: right;
+    font-size: 14px;
+    line-height: 20px;
+}
+.news-events figure img{
+    height: auto;
+}
+.files-page .list-group{
+    background: #f8f8f8;
+    border: 1px solid #ededed;
+    margin-bottom: 15px;
+    display: table;
+    width: 100%;
+    padding: 5px;
+}
+.files-page .list-group > *{
+    display: inline-block;
+}
+.files-page .list-group .preview{
+    width: 15%;
+    border-left: 1px solid #eee;
+    float: right;
+    text-align: center;
+}
+.files-page .list-group .preview img{
+    height: 80px;
+    width: 80px;
+}
+.files-page .list-group .attachment-date{
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+    width: 15%;
+}
+.files-page .list-group .attachment-data{
+    margin-right: 20px;
+    width: 65%;
+}
+.files-page .list-group .attachment-data h4{
+    font-size: 18px;
+}
+.files-page .list-group .attachment-data p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.files-page .list-group .attachment-date a{
+    background: #6ba92d;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 3px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.files-page .list-group .attachment-date p{
+    font-size: 14px;
+    margin-bottom: 0;
+
+}
+#upload-files{
+    background: #ffffff;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-shadow: 0px 0px 11px 2px #eee;
+    margin-top: 100px;
+}
+.files-page .upload-files{
+    font-size: 20px;
+    background: #0267a2;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+ul.post-detail li .label a{
+    color: #fff;
+}
+.news-events .news-box .date span {
+    font-size: 18px;
+}
+.comment-list .comment{
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px 0 #f1f1f1;
+    -moz-box-shadow: 0 0 10px 0 #f1f1f1;
+    box-shadow: 0 0 10px 0 #f1f1f1;
+    margin-top: 25px;
+    padding: 15px;
+}
+.comment-list .comment .children .comment{
+    border-right: 2px solid #6ba92d;
+}
+.comment-list .comment-metadata a{
+    color: #0267a2;
+    font-size: 13px;
+}
+.comment-list .comment-content{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.comment-list .reply{
+    background: #0267a2;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.comment-list .reply a{
+    color: #fff;
+}
+#respond{
+    margin-top: 40px;
+    border-top: 2px dashed #f8f8f8;
+    padding-top: 10px;
+}
+#respond .comment-reply-title{
+    font-size: 18px;
+}
+#respond .comment-form-comment{
+    margin: 30px 0;
+}
+#respond .comment-form label{
+    display: block;
+}
+#respond .comment-form textarea , #respond .comment-form input:not([type="checkbox"])  {
+    display: block;
+    border: 1px solid #f1f1f1;
+    width: 100%;
+    padding: 0 10px;
+    height: 32px;
+    margin-bottom: 20px;
+}
+#respond .comment-form textarea{
+    height: 80px;
+}
+#respond .comment-form .form-submit input[type=submit]{
+    background: #6ba92d;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    width: auto;
+    padding: 0 30px;
+    cursor: pointer;
+}
+.practice-area .inner{
+    transition: all ease-in-out 0.3s;
+}
+.practice-area .inner:hover, .our-attorneys .cnt-block:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #fff;
+}
+.practice-area .inner p > *{
+    white-space: pre-line;
+}
+.practice-area .inner h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .files-page .list-group .preview{
+        width: 25%;
+        border: none;
+    }
+    .files-page .list-group .attachment-date{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .inner-banner h1{
+        font-size: 24px;
+        line-height: 2;
+    }
+}
+
